@@ -1,0 +1,6 @@
+D:/Lab2/build/CMakeFiles/main.dir
+D:/Lab2/build/CMakeFiles/ALL_BUILD.dir
+D:/Lab2/build/CMakeFiles/ZERO_CHECK.dir
+D:/Lab2/build/_deps/fmt-build/CMakeFiles/fmt.dir
+D:/Lab2/build/_deps/fmt-build/CMakeFiles/ALL_BUILD.dir
+D:/Lab2/build/lib/CMakeFiles/test.dir

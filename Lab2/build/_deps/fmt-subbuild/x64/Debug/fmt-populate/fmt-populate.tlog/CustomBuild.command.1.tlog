@@ -1,0 +1,150 @@
+^D:\LAB2\BUILD\_DEPS\FMT-SUBBUILD\CMAKEFILES\E42C870C5C1E59F8440EAF2D8D9D6BE3\FMT-POPULATE-MKDIR.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P D:/Lab2/build/_deps/fmt-subbuild/fmt-populate-prefix/tmp/fmt-populate-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Lab2/build/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/Debug/fmt-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\LAB2\BUILD\_DEPS\FMT-SUBBUILD\CMAKEFILES\E42C870C5C1E59F8440EAF2D8D9D6BE3\FMT-POPULATE-DOWNLOAD.RULE
+setlocal
+cd D:\Lab2\build\_deps
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P D:/Lab2/build/_deps/fmt-subbuild/fmt-populate-prefix/tmp/fmt-populate-gitclone.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Lab2/build/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/Debug/fmt-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\LAB2\BUILD\_DEPS\FMT-SUBBUILD\CMAKEFILES\E42C870C5C1E59F8440EAF2D8D9D6BE3\FMT-POPULATE-UPDATE.RULE
+setlocal
+cd D:\Lab2\build\_deps\fmt-src
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P D:/Lab2/build/_deps/fmt-subbuild/fmt-populate-prefix/tmp/fmt-populate-gitupdate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\LAB2\BUILD\_DEPS\FMT-SUBBUILD\CMAKEFILES\E42C870C5C1E59F8440EAF2D8D9D6BE3\FMT-POPULATE-PATCH.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Lab2/build/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/Debug/fmt-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\LAB2\BUILD\_DEPS\FMT-SUBBUILD\CMAKEFILES\E42C870C5C1E59F8440EAF2D8D9D6BE3\FMT-POPULATE-CONFIGURE.RULE
+setlocal
+cd D:\Lab2\build\_deps\fmt-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Lab2/build/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/Debug/fmt-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\LAB2\BUILD\_DEPS\FMT-SUBBUILD\CMAKEFILES\E42C870C5C1E59F8440EAF2D8D9D6BE3\FMT-POPULATE-BUILD.RULE
+setlocal
+cd D:\Lab2\build\_deps\fmt-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Lab2/build/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/Debug/fmt-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\LAB2\BUILD\_DEPS\FMT-SUBBUILD\CMAKEFILES\E42C870C5C1E59F8440EAF2D8D9D6BE3\FMT-POPULATE-INSTALL.RULE
+setlocal
+cd D:\Lab2\build\_deps\fmt-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Lab2/build/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/Debug/fmt-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\LAB2\BUILD\_DEPS\FMT-SUBBUILD\CMAKEFILES\E42C870C5C1E59F8440EAF2D8D9D6BE3\FMT-POPULATE-TEST.RULE
+setlocal
+cd D:\Lab2\build\_deps\fmt-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Lab2/build/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/Debug/fmt-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\LAB2\BUILD\_DEPS\FMT-SUBBUILD\CMAKEFILES\8AA3CC8310EA266F72FCD8FAAA0AAF62\FMT-POPULATE-COMPLETE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/Lab2/build/_deps/fmt-subbuild/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Lab2/build/_deps/fmt-subbuild/CMakeFiles/Debug/fmt-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Lab2/build/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/Debug/fmt-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\LAB2\BUILD\_DEPS\FMT-SUBBUILD\CMAKEFILES\2EE7E56E2C27500066F813DE05C6638B\FMT-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\LAB2\BUILD\_DEPS\FMT-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Lab2/build/_deps/fmt-subbuild -BD:/Lab2/build/_deps/fmt-subbuild --check-stamp-file D:/Lab2/build/_deps/fmt-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

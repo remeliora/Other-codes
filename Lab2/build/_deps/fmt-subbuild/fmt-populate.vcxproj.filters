@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Lab2\build\_deps\fmt-subbuild\CMakeFiles\e42c870c5c1e59f8440eaf2d8d9d6be3\fmt-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Lab2\build\_deps\fmt-subbuild\CMakeFiles\e42c870c5c1e59f8440eaf2d8d9d6be3\fmt-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Lab2\build\_deps\fmt-subbuild\CMakeFiles\e42c870c5c1e59f8440eaf2d8d9d6be3\fmt-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Lab2\build\_deps\fmt-subbuild\CMakeFiles\e42c870c5c1e59f8440eaf2d8d9d6be3\fmt-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Lab2\build\_deps\fmt-subbuild\CMakeFiles\e42c870c5c1e59f8440eaf2d8d9d6be3\fmt-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Lab2\build\_deps\fmt-subbuild\CMakeFiles\e42c870c5c1e59f8440eaf2d8d9d6be3\fmt-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Lab2\build\_deps\fmt-subbuild\CMakeFiles\e42c870c5c1e59f8440eaf2d8d9d6be3\fmt-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Lab2\build\_deps\fmt-subbuild\CMakeFiles\e42c870c5c1e59f8440eaf2d8d9d6be3\fmt-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Lab2\build\_deps\fmt-subbuild\CMakeFiles\8aa3cc8310ea266f72fcd8faaa0aaf62\fmt-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Lab2\build\_deps\fmt-subbuild\CMakeFiles\2ee7e56e2c27500066f813de05c6638b\fmt-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Lab2\build\_deps\fmt-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Lab2\build\_deps\fmt-subbuild\CMakeFiles\fmt-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{FFF025FF-6B8B-31F2-BDA3-712899145D33}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

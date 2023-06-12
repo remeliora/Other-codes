@@ -1,0 +1,13 @@
+3
+Ussuriysk2
+163465
+Vladivostok
+598927
+Nahodka
+158649
+Khabarovsk
+589596
+0 1 0 1
+1 0 1 1
+0 1 0 0
+1 1 0 0

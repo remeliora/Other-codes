@@ -1,0 +1,14 @@
+# Target labels
+ fmt-populate
+# Source files and their labels
+D:/Lab2/build/_deps/fmt-subbuild/CMakeFiles/fmt-populate
+D:/Lab2/build/_deps/fmt-subbuild/CMakeFiles/2ee7e56e2c27500066f813de05c6638b/fmt-populate.rule
+D:/Lab2/build/_deps/fmt-subbuild/CMakeFiles/8aa3cc8310ea266f72fcd8faaa0aaf62/fmt-populate-complete.rule
+D:/Lab2/build/_deps/fmt-subbuild/CMakeFiles/e42c870c5c1e59f8440eaf2d8d9d6be3/fmt-populate-build.rule
+D:/Lab2/build/_deps/fmt-subbuild/CMakeFiles/e42c870c5c1e59f8440eaf2d8d9d6be3/fmt-populate-configure.rule
+D:/Lab2/build/_deps/fmt-subbuild/CMakeFiles/e42c870c5c1e59f8440eaf2d8d9d6be3/fmt-populate-download.rule
+D:/Lab2/build/_deps/fmt-subbuild/CMakeFiles/e42c870c5c1e59f8440eaf2d8d9d6be3/fmt-populate-install.rule
+D:/Lab2/build/_deps/fmt-subbuild/CMakeFiles/e42c870c5c1e59f8440eaf2d8d9d6be3/fmt-populate-mkdir.rule
+D:/Lab2/build/_deps/fmt-subbuild/CMakeFiles/e42c870c5c1e59f8440eaf2d8d9d6be3/fmt-populate-patch.rule
+D:/Lab2/build/_deps/fmt-subbuild/CMakeFiles/e42c870c5c1e59f8440eaf2d8d9d6be3/fmt-populate-test.rule
+D:/Lab2/build/_deps/fmt-subbuild/CMakeFiles/e42c870c5c1e59f8440eaf2d8d9d6be3/fmt-populate-update.rule

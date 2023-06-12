@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/Lab2/build/_deps/fmt-subbuild/CMakeFiles/fmt-populate"
+		},
+		{
+			"file" : "D:/Lab2/build/_deps/fmt-subbuild/CMakeFiles/2ee7e56e2c27500066f813de05c6638b/fmt-populate.rule"
+		},
+		{
+			"file" : "D:/Lab2/build/_deps/fmt-subbuild/CMakeFiles/8aa3cc8310ea266f72fcd8faaa0aaf62/fmt-populate-complete.rule"
+		},
+		{
+			"file" : "D:/Lab2/build/_deps/fmt-subbuild/CMakeFiles/e42c870c5c1e59f8440eaf2d8d9d6be3/fmt-populate-build.rule"
+		},
+		{
+			"file" : "D:/Lab2/build/_deps/fmt-subbuild/CMakeFiles/e42c870c5c1e59f8440eaf2d8d9d6be3/fmt-populate-configure.rule"
+		},
+		{
+			"file" : "D:/Lab2/build/_deps/fmt-subbuild/CMakeFiles/e42c870c5c1e59f8440eaf2d8d9d6be3/fmt-populate-download.rule"
+		},
+		{
+			"file" : "D:/Lab2/build/_deps/fmt-subbuild/CMakeFiles/e42c870c5c1e59f8440eaf2d8d9d6be3/fmt-populate-install.rule"
+		},
+		{
+			"file" : "D:/Lab2/build/_deps/fmt-subbuild/CMakeFiles/e42c870c5c1e59f8440eaf2d8d9d6be3/fmt-populate-mkdir.rule"
+		},
+		{
+			"file" : "D:/Lab2/build/_deps/fmt-subbuild/CMakeFiles/e42c870c5c1e59f8440eaf2d8d9d6be3/fmt-populate-patch.rule"
+		},
+		{
+			"file" : "D:/Lab2/build/_deps/fmt-subbuild/CMakeFiles/e42c870c5c1e59f8440eaf2d8d9d6be3/fmt-populate-test.rule"
+		},
+		{
+			"file" : "D:/Lab2/build/_deps/fmt-subbuild/CMakeFiles/e42c870c5c1e59f8440eaf2d8d9d6be3/fmt-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"fmt-populate"
+		],
+		"name" : "fmt-populate"
+	}
+}
